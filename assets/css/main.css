@@ -3796,7 +3796,7 @@ body.is-ie #sidebar > .inner {
   -ms-transition: color 0.2s ease;
   transition: color 0.2s ease;
   border: 0;
-  color: black;
+  color: #425664;
   display: block;
   font-size: 1em;
   font-weight: bold;
@@ -3821,7 +3821,7 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-  background: #3c2c62;
+  background: #425664;
 }
 
 #sidebar nav a:after {
@@ -3966,6 +3966,7 @@ body.is-preload #sidebar nav ul li {
   margin-bottom: 0;
   padding-top: 110px;
   padding-left: 110px;
+  color: #425664;
 }
 
 .skillsInner {
@@ -3975,6 +3976,11 @@ body.is-preload #sidebar nav ul li {
 
 .introName {
   font-size: 5em;
+  color: #425664;
+}
+
+#intro p {
+  color: #425664;
 }
 
 .button.scrolly {
@@ -4007,9 +4013,16 @@ body.is-preload #sidebar nav ul li {
 }
 
 .aboutMe {
-  color: #f6f4f2;
+  color: #425664;
 }
 
 /* .projectText{
 
 } */
+
+.parakeet {
+  width: 10%;
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+}
