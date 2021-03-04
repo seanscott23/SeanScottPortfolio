@@ -1935,7 +1935,7 @@ button,
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
-  font-size: 0.6em;
+  font-size: 0.9em;
   font-weight: bold;
   height: calc(4.75em + 2px);
   letter-spacing: 0.25em;
@@ -3132,7 +3132,7 @@ body.is-ie .spotlights > section {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  width: 50em;
+  width: 60em;
   -ms-flex: 1;
 }
 
@@ -4019,10 +4019,13 @@ body.is-preload #sidebar nav ul li {
   color: #425664;
 }
 
-/* .projectText{
+.projectText {
+  font-size: 1.5em;
+}
 
-} */
-
+.inner > h2 {
+  font-size: 2em;
+}
 .parakeet {
   width: 10%;
   border-radius: 50%;
@@ -4031,5 +4034,9 @@ body.is-preload #sidebar nav ul li {
 }
 
 .workDescription {
-  font-size: 1.3em;
+  font-size: 1.4em;
+}
+
+.features h3 {
+  font-size: 1.6em;
 }
