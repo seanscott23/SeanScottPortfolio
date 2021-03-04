@@ -221,7 +221,7 @@ textarea {
   input,
   select,
   textarea {
-    font-size: 13pt;
+    font-size: 7.5pt;
   }
 }
 
@@ -3290,6 +3290,9 @@ table.alt tfoot {
   width: 75em;
 }
 
+#two > .inner {
+  width: 100em;
+}
 @media screen and (max-width: 1680px) {
   .wrapper > .inner {
     padding: 4em 4em 2em 4em;
@@ -3349,7 +3352,7 @@ table.alt tfoot {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 98vh;
 }
 
 body.is-ie .wrapper.fullscreen {
@@ -3964,13 +3967,13 @@ body.is-preload #sidebar nav ul li {
 
 .skillsTitle {
   margin-bottom: 0;
-  padding-top: 110px;
-  padding-left: 110px;
+  padding-top: 40px;
+  padding-left: 40px;
   color: #425664;
 }
 
 .skillsInner {
-  height: 700px;
+  height: 350px;
   width: 100%;
 }
 
@@ -3995,14 +3998,14 @@ body.is-preload #sidebar nav ul li {
 
 .tech-icons {
   display: flex;
-  margin-left: 110px;
+  margin-left: 25px;
   margin-top: 2em;
   flex-wrap: wrap;
   width: 90%;
 }
 
 .tech-icon {
-  height: 150px;
+  height: 70px;
   display: block;
 }
 
@@ -4025,4 +4028,8 @@ body.is-preload #sidebar nav ul li {
   border-radius: 50%;
   background: white;
   padding: 5px;
+}
+
+.workDescription {
+  font-size: 1.3em;
 }
