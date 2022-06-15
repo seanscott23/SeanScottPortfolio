@@ -4018,14 +4018,16 @@ body.is-preload #sidebar nav ul li {
 .aboutMe {
   color: #425664;
 }
-
-.projectText {
-  font-size: 1.5em;
-}
 .projectText1 {
   font-size: 1.5em;
   color: red;
 }
+
+.projectText {
+  font-size: 1.5em;
+}
+
+
 
 .inner > h2 {
   font-size: 2em;
